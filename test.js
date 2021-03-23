@@ -1,6 +1,13 @@
-var a = 7;
+var a = "asd";
 var b = 5;
 
-console.log(a + b);
+//double negative
+if (isNaN(a)){
 
-console.log(Math.PI);
+    console.log("meaning of life is " + (a * b));
+
+} else{
+
+    console.log("that aint even a number, thickie")
+    
+}
